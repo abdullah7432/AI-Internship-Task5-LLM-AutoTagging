@@ -1,54 +1,43 @@
-# AI Internship Task 5 - Auto Tagging Support Tickets Using LLM
+# 🤖 LLM Auto Tagging System for Support Tickets
 
-## 📌 Project Overview
-This project automatically assigns tags to support tickets using Large Language Models (LLMs).  
-It uses prompt engineering techniques including zero-shot, few-shot, and fine-tuning approaches.
+## 🚀 Overview
+This project is an AI-powered system that automatically assigns relevant tags to support tickets using Large Language Models (LLMs). It uses advanced prompt engineering techniques to improve classification accuracy.
 
----
-
-## 📊 Objective
-- Automatically classify support tickets into categories
-- Use LLM-based text classification
-- Compare zero-shot vs few-shot vs fine-tuned performance
-- Predict top 3 most probable tags per ticket
-
----
-
-## 📁 Files Included
-- `task5_llm_auto_tagging.ipynb` → Main notebook
-- Dataset file (support tickets dataset)
-- Output results (if included)
-
----
+## 🧠 Objective
+The main objective is to automatically classify support tickets into meaningful categories and compare different LLM approaches such as zero-shot, few-shot, and fine-tuned methods.
 
 ## ⚙️ Techniques Used
 - Prompt Engineering
 - Zero-Shot Learning
 - Few-Shot Learning
-- Multi-label / multi-class ranking
-- LLM-based classification
+- LLM-based Text Classification
+- Multi-label Ranking System
 
----
-
-## 🤖 Model Approach
-- Large Language Model (LLM)
-- Prompt-based classification system
-- Ranking-based output generation
-
----
-
-## 📈 Output Format
-Each support ticket returns:
+## 📊 Output
+For each support ticket, the system generates:
 - Top 3 predicted tags
-- Ranked by probability/confidence
+- Ranked by confidence/probability
 
----
+## 🧠 Model Approach
+- Large Language Models (LLMs)
+- Prompt-based classification
+- Ranking-based prediction system
+
+## 🛠 Tech Stack
+- Python 🐍
+- Jupyter Notebook
+- LLM APIs / Transformers
+- NLP Techniques
+
+## 📈 Results
+The system successfully predicts relevant tags for support tickets and demonstrates the effectiveness of prompt engineering techniques in real-world NLP tasks.
 
 ## 👨‍💻 Author
 Muhammad Abdullah  
-Lahore Garrison University
+BSCS Student | AI & Machine Learning Enthusiast  
+GitHub: https://github.com/muhammadabdullah-devpk
 
----
-
-## 🔗 GitHub Repository
-(Add your repo link here after upload)
+## ⭐ Future Improvements
+- Fine-tune dedicated LLM for higher accuracy
+- Add real-time API-based ticket system
+- Deploy as web-based SaaS tool
